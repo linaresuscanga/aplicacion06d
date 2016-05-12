@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 			navigator.notification.beep(4);// numero de veces que deseas que notifique
 		});//beep
 		$('#btnvibrar').on('tap', function (){
-			navigator.notification.vibrate(200);
+			navigator.notification.vibrate(5400);
 		});
 	});
 });
